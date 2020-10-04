@@ -1,0 +1,8 @@
+<div class="so-pan-table-freeze-frame-wrapper {{config.dataWrapperClass}}">
+    <div *ngFor="let datum of data; let ix = index" class="so-pan-table-freeze-frame-row-wrapper {{config.dataRowClass}}" [ngClass]=" {'so-pan-table-row-zebra': ix % 2 === 1}">
+        
+        <div *ngIf="config.addSelector" class="so-pan-table-freeze-frame-row-selector"><input type="checkbox" [attr.data-id]="datum[config.selectorIdField]"  (input)="onSelect($event.target)"></div>
+        <div *ngFor="let col of config.columnDefs">{{config.selectorIdField}}</div>
+
+    </div>
+</div>

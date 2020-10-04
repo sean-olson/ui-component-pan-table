@@ -1,0 +1,89 @@
+.so-pt-table-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;    
+    border: solid 1px #eee;
+    min-height: 500px;
+    .so-pt-table{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        flex-grow: 1;
+        .so-pt-table-freeze-frame-wrapper{
+            width: 250px;
+            background-color: paleturquoise;
+            .so-pt-table-freeze-frame{
+                .so-pt-table-freeze-frame-header {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                    height: 30px;
+                    background-color: #eee;
+                    .so-pt-column-heading{
+                        flex-grow: 1;
+                        text-align: center;
+                    }
+                }
+                .so-pt-table-freeze-frame-body {
+
+
+                }
+            }
+        }
+        .so-pt-pan-frame-control-wrapper {
+            width: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24pt;
+            color: #ccc;
+            &:hover{
+                color: #999;
+                cursor: pointer; 
+            }
+        }        
+        .so-pt-table-pan-frame-wrapper {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: stretch;             
+            background-color: goldenrod;
+            .so-pt-table-pan-frame{
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: stretch;                 
+                .so-pt-table-pan-frame-header-wrapper {
+                    height: 30px;
+                    overflow: hidden;
+                    background-color: #eee;
+                    position: relative;                   
+                    .so-pt-table-pan-frame-header {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center; 
+                        position: absolute;
+                        height: 30px; 
+                        .so-pt-table-pan-frame-column-item {
+                            width: 150px;
+                            text-align: center;
+                            border-right: solid 1px #ddd;
+                        } 
+                    }
+                }
+                .so-pt-table-pan-frame-body-wrapper{
+                    flex-grow: 1;
+                    .so-pt-table-pan-frame-body {
+
+                    }
+                }
+            }
+        }
+    }
+}

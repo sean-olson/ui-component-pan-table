@@ -1,0 +1,182 @@
+@import './_scss/bootstrap/bootstrap.scss';
+@import './app/pan-table/_scss/pan-table';
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+app-root {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+
+// implementation styles for the pan table
+
+.so-pan-table-wrapper{
+  margin-top: 40px;
+  border: solid 1px #ddd;
+  padding: 20px;
+}
+
+.so-pan-table-title-wrapper {}
+
+.so-pan-table-title {
+  font-size: 1.2rem;
+}
+
+.so-pan-table-header-wrapper {}
+
+.so-pan-table-freeze-frame-header-wrapper {}
+
+.so-pan-table-freeze-frame-selector-heading {}
+
+.so-pan-table-freeze-frame-field-heading{}
+
+.so-pan-table-pan-frame-header-wrapper{}
+
+.so-pan-table-pan-frame-field-heading{}
+
+.so-pan-table-body-wrapper{}
+
+.so-pan-table-freeze-frame-wrapper{}
+
+.so-pan-table-freeze-frame-row-wrapper{}
+
+.so-pan-table-freeze-frame-row-selector{}
+
+.so-pan-table-pan-frame-wrapper {}
+
+.so-pan-table-pan-frame-row-wrapper{}
+
+.so-pan-table-row-zebra {}
+
+// custom pan-table-config-implemented classes
+
+//.headerWrapperClass
+.poc-header-wrapper{
+  // background-color: #dedede;
+
+}
+
+//.bodyWrapperClass
+.poc-body-wrapper{
+
+}
+
+
+// custom freeze-frame-config-implemented classes
+
+  //groupHeaderClass
+  .poc-freeze-frame-header-group{
+    margin-right: 20px;
+  }
+
+  //dataWrapperClass
+  .poc-freeze-frame-data-wrapper{}
+
+
+  //dataRowClass
+  .poc-freeze-frame-data-row-wrapper{}
+
+
+  // custom freeze-frame-column-def-config-implemented classes
+
+  .poc-header-cell-user{
+    width: 200px;
+  }
+
+  .poc-data-cell-user{
+    width: 200px;
+  }
+
+
+// custom pan-frame-config-implemented classes
+
+
+  //groupHeaderClass
+  .poc-pan-frame-header-group{
+    flex-grow: 1;
+  }
+
+  //dataWrapperClass
+  .poc-pan-frame-data-wrapper{
+    
+  }
+
+  //dataRowClass
+  .poc-pan-frame-data-row-wrapper{}  
+
+    // custom pan-frame-column-def-config-implemented classes
+
+    .poc-header-cell-email{
+      width: 300px;
+    }
+  
+    .poc-data-cell-email{
+      width: 300px;
+      
+    }
+
+    .poc-header-cell-job-title{
+    
+    }
+  
+    .poc-data-cell-job-title{
+      
+    } 
+    
+    .poc-header-cell-ip{
+    
+    }
+  
+    .poc-data-cell-ip{
+      
+    }
+    
+    .poc-header-cell-university{
+    
+    }
+  
+    .poc-data-cell-university{
+      
+    } 
+    
+    .poc-header-cell-shirt{
+    
+    }
+  
+    .poc-data-cell-shirt{
+      
+    }
+    
+    .poc-header-cell-city{
+    
+    }
+  
+    .poc-data-cell-city{
+      
+    }
+    
+    .poc-header-cell-postal{
+    
+    }
+  
+    .poc-data-cell-postal{
+      
+    }   
+    
+    .poc-header-cell-gender{
+    
+    }
+  
+    .poc-data-cell-gender{
+      
+    }    

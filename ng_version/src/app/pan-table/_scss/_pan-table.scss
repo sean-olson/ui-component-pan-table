@@ -1,0 +1,91 @@
+app-pan-table {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.so-pan-table-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-grow: 1;
+  
+}
+
+.so-pan-table-title-wrapper{
+
+}
+
+.so-pan-table-title{
+  font-size: 1.4rem;
+}
+
+.so-pan-table-header-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    background-color: #efefef;
+    padding: 5px 10px;
+}
+
+.so-pan-table-freeze-frame-header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; 
+  margin-right: 10px; 
+}
+
+.so-pan-table-freeze-frame-selector-heading {
+  width: 20px;
+
+}
+
+.so-pan-table-freeze-frame-field-heading {
+
+}
+
+.so-pan-table-pan-frame-header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;  
+}
+
+.so-pan-table-pan-frame-field-heading {
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+
+.so-pan-table-body-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.so-pan-table-freeze-frame-wrapper {
+
+}
+
+.so-pan-table-freeze-frame-row-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.so-pan-table-freeze-frame-row-selector{}
+
+.so-pan-table-pan-frame-wrapper {
+
+}
+
+.so-pan-table-row-zebra {
+  background-color: #f2f2f2;
+}

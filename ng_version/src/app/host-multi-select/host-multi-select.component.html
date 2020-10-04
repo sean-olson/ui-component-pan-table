@@ -1,0 +1,9 @@
+<div class="so-backup-flex-row so-backup-multi-select-wrapper">
+    <div class="so-select-all form-check">
+      <input type="checkbox" name="so-select-all-input" id="so-select-all-input" [(ngModel)]="selectAllChecked" (ngModelChange)="onSelectAll()">
+      <label for="so-select-all-input">Select All Hosts</label>
+    </div>
+    <div class="so-deselect-all">
+      <button class="btn btn-sm so-bu-deselect_button" (click)="onDeselectAll()">Clear All Selections</button>
+    </div>
+  </div>

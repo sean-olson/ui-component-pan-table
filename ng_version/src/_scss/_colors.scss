@@ -1,0 +1,32 @@
+//color palette one
+
+.dark-primary-color       { background: #1976D2; }
+.default-primary-color    { background: #2196F3; }
+.light-primary-color      { background: #BBDEFB; }
+.text-inverse-color       { color: #FFFFFF; }
+.accent-color             { background: #B2D237; }
+.secondary-accent-color   { background: #DAA520; }
+.primary-text-color       { color: #212121; }
+.secondary-text-color     { color: #757575; }
+.divider-color            { border-color: #BDBDBD; }
+
+.text-primary-color-background    { background: #FFFFFF; }
+.primary-text-color-background    { background: #212121; }
+.secondary-text-color-background  { background: #757575; }
+.divider-color-background         { background: #BDBDBD; }
+
+$primary-color-dark:      #1976D2;
+$primary-color:           #2196F3;
+$primary-color-light:     #BBDEFB;
+$text-inverse-color:      #FFFFFF;
+$accent-color:            #B2D237;
+$secondary-accent-color:  #DAA520;
+$primary-text-color:      #212121;
+$secondary-text-color:    #757575;
+$divider-color:           #BDBDBD;
+
+
+$success:   #28a745;
+$warning:   #ffc107;
+$danger:    #dc3545;
+$info:      #17a2b8;

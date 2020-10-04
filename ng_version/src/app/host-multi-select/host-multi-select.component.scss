@@ -1,0 +1,36 @@
+@import '../../_scss/so/colors';
+
+label{
+  font-size: .85em;
+  margin-bottom: 0;
+}
+
+.so-backup-multi-select-wrapper{
+  border-bottom: 0px;
+  box-sizing: border-box;
+  margin-bottom: -1px;
+  background-color: lighten($secondary-accent-color, 30%);
+  padding: 5px;
+  align-items: center;
+  box-sizing: border-box;
+  border-left: solid 1px darken($divider-color, 10%);
+  border-bottom: solid 1px lighten($secondary-accent-color, 10%);
+  border-right: solid 1px darken($divider-color, 10%);
+}
+
+.so-select-all{
+  input{
+    margin-right: 10px;;
+  }
+}
+
+button{
+  font-size: .80em;
+  padding: 2px 5px;
+}
+
+.so-bu-deselect_button{
+  &:hover{
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,26 @@
+<div class="so-pan-table-wrapper">
+  <div class="so-pan-table-title-wrapper">
+    <div class="so-pan-table-title">{{config.title}}</div>
+  </div>
+  <div class="so-pan-table-header-wrapper {{config.headerWrapperClass}}">
+    <div class="so-pan-table-freeze-frame-header-wrapper  {{config.freezeFrameConfig.headerGroupClass}}">
+        <div class="so-pan-table-freeze-frame-selector-heading" *ngIf="config.freezeFrameConfig.addSelector">Y</div>
+        <div *ngFor="let col of config.freezeFrameConfig.columnDefs" class="so-pan-table-freeze-frame-field-heading {{col.headerCellClass}}">{{col.heading}}</div>
+    </div>
+    <div class="so-pan-table-pan-frame-header-wrapper {{config.panFrameConfig.headerGroupClass}}">
+      <div *ngFor="let col of config.panFrameConfig.columnDefs" class="so-pan-table-pan-frame-field-heading  {{col.headerCellClass}}">{{col.heading}}</div>
+    </div>
+  </div>
+  <div class="so-pan-table-body-wrapper {{config.bodyWrapperClass}}">
+
+    <app-pan-table-freeze-frame [config]="config.freezeFrameConfig" [data]="config.data"></app-pan-table-freeze-frame>
+
+    <div class="so-pan-table-pan-left-wrapper">
+
+    </div>
+    
+    <app-pan-table-pan-frame [config]="config.freezeFrameConfig" [data]="config.data"></app-pan-table-pan-frame>
+
+    <div class="so-pan-table-pan-right-wrapper"></div>
+  </div>
+</div>
